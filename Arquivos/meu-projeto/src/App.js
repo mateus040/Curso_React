@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld'; /* Importando função HelloWrold */
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
 
@@ -33,6 +34,9 @@ function App() {
       <img src={url} alt='Minha Imagem' />
       */}
 
+      <h1>Testando CSS</h1>
+      <Frase />
+      <Frase />
       <SayMyName nome="Mateus" />
       <SayMyName nome="João" />
       <SayMyName nome={nome} /> {/* Passando o nome por variável */}
